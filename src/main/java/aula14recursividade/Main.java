@@ -9,9 +9,8 @@ public class Main {
 			vetor[i] = (int) (Math.random() * (vetor.length + 10));
 		}
 		
-		
-		for(int i = 0; i < vetor.length; i++) {
-					System.out.println(vetor[i]);
+		for (int i = 0; i < vetor.length; i++) {
+			System.out.println(vetor[i]);
 		}
 		System.out.println("Soma é = " +somar(0, 0, vetor) );
 		
